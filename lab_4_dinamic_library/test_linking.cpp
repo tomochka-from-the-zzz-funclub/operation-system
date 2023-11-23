@@ -1,8 +1,9 @@
 #include <iostream>
-#include "linking.cpp"
+
 using namespace std;
+int PrimeCount(int A, int B); 
+float E(double x);
 
 int main()  {
-    int i = 0;
-    sieve_Eratosthenes(0, 7);
+    PrimeCount(0, 7);
 }
